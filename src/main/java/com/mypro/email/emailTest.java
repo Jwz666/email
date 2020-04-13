@@ -40,7 +40,7 @@ public class emailTest {
 
         message.setTo("1178515275@qq.com","1262360741@qq.com");
 
-        message.setSubject("紫数测试");
+        message.setSubject("紫数阿里云测试");
 
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append("客户姓名："+userData.getName()+"\r\n");
