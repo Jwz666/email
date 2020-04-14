@@ -1,0 +1,28 @@
+.rowR{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.rowR img:first-child{
+    max-width: 850px;
+    
+}
+.rowR img:last-child{
+    max-width: 237px;
+    margin-left: 25px;
+}
+@media (max-width: 575.98px){
+    .rowR img:first-child{
+        max-width: 100%;
+        
+    }
+    .rowR img:last-child{
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .rowR{
+        display: flex;
+        flex-direction: column;
+    }
+}
